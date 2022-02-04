@@ -1,0 +1,12 @@
+
+server:
+  port: 3000
+
+spring:
+  application:
+    name: my_custom_config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/m44rx/my-server.git
